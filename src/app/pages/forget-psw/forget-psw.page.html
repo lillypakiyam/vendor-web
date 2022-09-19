@@ -1,0 +1,61 @@
+<ion-header [translucent]="true" class="header">
+  <ion-img src="assets/logo.png" class="img"></ion-img>
+  </ion-header>
+
+
+  <ion-content [fullscreen]="true">
+ 
+         
+  <div class="login row" style="justify-content: center;padding-left: 500px;margin-top: 200px;padding-right: 500px;">
+    <ion-row class="wholeclass">
+      <ion-col class="back" size="2">
+        <ion-label style="color: red;">
+          Vendor ID:
+        </ion-label>
+      </ion-col>
+      <ion-col size="10">
+        <ion-input class="input"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row class="back" style="margin-top: 2px;">
+      <ion-col size="4">
+  
+      </ion-col>
+      <ion-col size="8">
+        <ion-button class="btnLogin" (click)="moveTo()">Get Password</ion-button>
+        <ion-button class="btnLogin" (click)="moveTo()">Cancel</ion-button>
+      </ion-col>
+    </ion-row>
+  
+  </div>
+  
+  </ion-content>
+  <ion-footer style="position: relative;">
+    <div class="footer"></div>
+    <ion-row>
+      <ion-col>
+  <ion-label style="margin-left: 5px;font-weight: bold;">© 2017 SES S.A. All rights reserved.</ion-label>
+  </ion-col>
+  
+   
+    
+  <ion-col></ion-col>
+  <ion-label style="margin-top: 10px;">Follow Us</ion-label>
+  <ion-col>
+    <ion-row>
+    <ion-img src="assets/twitter.png" class="icon"></ion-img>
+    
+    <ion-img src="assets/facebook.png" class="icon"></ion-img>
+    
+  
+    <ion-img src="assets/youtube.png" class="icon"></ion-img>
+  
+    <ion-img src="assets/linkedin.png" class="icon"></ion-img>
+  
+    <ion-img src="assets/instagram.png" class="icon"></ion-img> 
+    <ion-label style="font-weight: bold;padding-left: 10px;">| Privacy</ion-label>
+    <ion-label style="font-weight: bold;padding-left: 10px;">| Terms and Conditions</ion-label>
+  </ion-row>
+  </ion-col>
+  </ion-row>
+  </ion-footer>

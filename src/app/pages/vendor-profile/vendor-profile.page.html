@@ -1,0 +1,345 @@
+<ion-header [translucent]="true" class="header">
+  <ion-img src="assets/logo.png" class="img"></ion-img>
+  </ion-header>
+
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row class="row1">
+      <ion-col size="4" class="content1">
+      
+        <ion-label class="menu" (click)="login()">Login</ion-label>
+        <br>
+        <br>
+        <ion-label class="menu" (click)="moveToPsw()">Forget Password</ion-label>
+        <br>
+        <br>
+    <ion-label class="menu" (click)="moveToId()">Forget Content ID</ion-label>
+    <br>
+    <br>
+    <br>
+    <ion-label class="menu">Contact Us</ion-label>
+      </ion-col>
+      <ion-col size="8" class="content2">
+        <ion-row>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">1</div>
+          </div>
+          </ion-col>
+          <ion-col>
+             
+            <ion-label style="margin-left: -15px;" color="primary">Profile</ion-label>
+            <div class="horizonal"></div>
+            <div class="vertical"></div>
+            <div class="backnum">
+            <div class="numbor">2</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">3</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">4</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">5</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">6</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">7</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">8</div>
+          </div>
+          </ion-col>
+          <ion-col class="mar">
+            <div class="backnum">
+            <div class="numbor1">9</div>
+          </div>
+          </ion-col>
+        </ion-row>
+        <ion-progress-bar value="0.1" class="bar1"></ion-progress-bar>
+       <br>
+       <h4 style="text-align: center;">Please provide us with your company details below</h4>
+        <h4 style="text-align: center;font-weight: bold;color: red;">Your password has been changed successfully.</h4>
+<br>
+        <ion-row class="back" style="text-align: center;justify-content: center;padding: 5px;font-weight: bold;color: black;">Your Company Profile</ion-row>
+<ion-row class="back" style="
+padding: 5px;margin-top: 2px;justify-content: start;color: black;font-weight: bold;">General Deatils</ion-row>       
+<div class="login" style="margin-top: 2px;">
+  <ion-row class="wholeclass">
+    <ion-col class="back" size="3">
+      <ion-label style="text-align: right;">
+      Address Type:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="Company registration address"></ion-input>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;text-align: right;">
+          Country:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+<ion-select style="border: 1px solid lightgray;">
+  <ion-select-option>Belgium</ion-select-option>
+  <ion-select-option>Belum</ion-select-option>
+</ion-select>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+Company Name:
+<p>(if the Company Name has changed please contact us immediately)</p>
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="TEST MAY 6"></ion-input>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+Former Name:
+<p>(if applicable)</p>
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="TEST MAY 6"></ion-input>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;">
+Email Address:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="vendor.management@ses.com"></ion-input>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+Confirm Email Address:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="vendor.management@ses.com"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="back" style="margin-top: 2px;padding: 5px;justify-content: start;color: black;font-weight: bold;">
+Address Details
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;">
+Street
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="Paradise Road"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;">
+House#:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="1111"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+Street 2:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder=""></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;">
+Postal Code:
+<p style="color: red;">(Please put the postal code without a country code in front)</p>
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="89109"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;">
+City:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="BRUSSELS"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+PO BOX Postal Code:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder=""></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+PO BOX:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder=""></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+District:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder=""></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+Region/State:
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder=""></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="color: red;">
+Phone Number:
+<p style="color: red;">
+  (In xxxxxxxxxxx format)
+</p>
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder="32702943691"></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="wholeclass" style="margin-top: 2px;">
+    <ion-col class="back" size="3">
+      <ion-label style="">
+Fax Number:
+<p>(In xxxxxxxxxxx format)</p>
+      </ion-label>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input class="input" placeholder=""></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="back" style="margin-top: 2px;justify-content: end;">
+    <ion-col size="8"></ion-col>
+    <ion-col size="4">
+      <ion-button class="btnLogin" (click)="moveToBack()">
+        <ion-icon name="chevron-back"></ion-icon> 
+        <ion-icon name="chevron-back" style="margin-left: -10px;"></ion-icon>
+        Back
+      </ion-button>
+  
+      <ion-button class="btnLogin" (click)="moveTo()">Next
+        <ion-icon name="chevron-forward"></ion-icon>
+        <ion-icon name="chevron-forward" style="margin-left: -10px;"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</div>
+
+</ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+
+<!--<ion-slides pager="true" [options]="slideOpts">  
+  
+  <ion-slide>  
+    <img src="assets/jtp_logo.png"/>  
+    <h2>Welcome to the <b>JavaTpoint</b></h2>  
+    <p>JavaTpoint offers Corporate Training, Summer Training, Online Training and Winter Training on Java, Android, Python, Oracle, PHP, and many more technologies.</p>  
+  </ion-slide>  
+
+  <ion-slide>  
+    <img src="assets/ionic_logo1.png"/>  
+    <h2>What is Ionic?</h2>  
+    <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>  
+  </ion-slide> 
+  <ion-slide>  
+    <img src="assets/ionic_logo1.png"/>  
+    <h2>What is Ionic?</h2>  
+    <p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>  
+  </ion-slide>   
+  </ion-slides>-->
+
+<ion-footer style="position: relative;">
+  <div class="footer"></div>
+  <ion-row>
+    <ion-col>
+<ion-label style="margin-left: 5px;font-weight: bold;">© 2017 SES S.A. All rights reserved.</ion-label>
+</ion-col>
+
+ 
+  
+<ion-col></ion-col>
+<ion-label style="margin-top: 10px;">Follow Us</ion-label>
+<ion-col>
+  <ion-row>
+  <ion-img src="assets/twitter.png" class="icon"></ion-img>
+  
+  <ion-img src="assets/facebook.png" class="icon"></ion-img>
+  
+
+  <ion-img src="assets/youtube.png" class="icon"></ion-img>
+
+  <ion-img src="assets/linkedin.png" class="icon"></ion-img>
+
+  <ion-img src="assets/instagram.png" class="icon"></ion-img> 
+  <ion-label style="font-weight: bold;padding-left: 10px;">| Privacy</ion-label>
+  <ion-label style="font-weight: bold;padding-left: 10px;">| Terms and Conditions</ion-label>
+</ion-row>
+</ion-col>
+</ion-row>
+</ion-footer>
